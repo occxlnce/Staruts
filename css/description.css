@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+/* Base Styles */
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 1.125;
+  margin-bottom: 0.125em;
+  text-align: center;
+  color: #000;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  margin-bottom: 0.5em;
+  text-align: center;
+  color: #c69320;
+  letter-spacing: 0.2em;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  line-height: 1.2em;
+  padding-top: 0rem;
+  margin-bottom: 1em;
+}
+
+.aboutus {
+	padding-top: 8rem;
+	
+}
+
+strong {
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+::selection {
+  color: #c69320;
+}
+
+/* Project description */
+.project-description {
+  width: 40em;
+  min-height: 70vh;
+  padding: 2em;
+  margin: 3em;
+}
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #fff;
+  flex-direction: column;
+  color: #000;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+/* Media Queries for Responsiveness */
+
+/* Laptops and Desktops */
+@media (min-width: 1024px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  .project-description {
+    width: 60em;
+    padding: 3em;
+    margin: 5em;
+  }
+}
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 1023px) {
+  h1 {
+    font-size: 2.25rem;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  p {
+    font-size: 16px;
+    padding-top: 0rem;
+  }
+
+  .project-description {
+    width: 80%;
+    padding: 1.5em;
+    margin: 2em;
+  }
+}
+
+/* Mobile Devices */
+@media (max-width: 767px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 16px;
+    padding-top: 0rem;
+  }
+
+  .project-description {
+    width: 90%;
+    padding: 1em;
+    margin: 1em;
+  }
+}
