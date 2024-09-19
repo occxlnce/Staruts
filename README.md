@@ -24,7 +24,7 @@ The **Stratus Construction and Projects Pty (Ltd)** website is designed to provi
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/username/stratus-construction.git
+   git clone https://github.com/occxlnce/stratus-construction.git
    ```
 
 2. **Navigate to the Project Directory**:
@@ -86,7 +86,3 @@ For any inquiries about the project or contributions, please contact us at:
 
 **Email**: info@stratusconstruction.com  
 **Phone**: +27 123 456 789
-
----
-
-This README provides clear documentation about the website structure, technology, and usage, making it easier for developers and users to understand and interact with the project.
